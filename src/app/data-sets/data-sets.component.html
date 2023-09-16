@@ -1,0 +1,8 @@
+<!-- data-sets.component.html -->
+<div class="tree">
+  <tree-root
+    [nodes]="dataSets"
+    [options]="treeOptions"
+    (activate)="onNodeSelect($event)">
+  </tree-root>
+</div>

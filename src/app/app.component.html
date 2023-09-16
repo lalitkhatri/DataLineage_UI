@@ -1,0 +1,20 @@
+<div class="app-container">
+  <!-- Header Pane -->
+  <header class="header">
+    <img src="assets/logo.png" alt="App Logo" class="logo">
+    <button class="upload-button" routerLink="/file-upload">Upload File</button>
+  </header>
+
+  <!-- Main Content Pane with Left and Right Panes -->
+  <div class="main-content">
+    <!-- Left Pane - Data Sets Tree -->
+    <div class="left-pane">
+      <app-data-sets></app-data-sets>
+    </div>
+
+    <!-- Right Pane - Data Set Properties -->
+    <div class="right-pane">
+      <app-data-set-properties></app-data-set-properties>
+    </div>
+  </div>
+</div>
